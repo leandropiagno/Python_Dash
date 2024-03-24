@@ -11,6 +11,6 @@ df = pd.DataFrame.from_dict(data)
 
 #print(df['Data da Compra'])
 
-df['Data da Compra'] =pd.to_datetime(df['Data da Compra'], format='%d/%m/%Y')
+df['Data da Compra'] = pd.to_datetime(df['Data da Compra'], format='%d/%m/%Y')
 
 file.close()
